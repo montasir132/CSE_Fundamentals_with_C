@@ -1,28 +1,53 @@
 // https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/B
 
+// #include<stdio.h>
+// int main()
+// {
+//     int n,y;
+//     scanf("%d", &n);
+//     int a[n];
+//     for(int i=0; i<n; i++)
+//     {
+//         scanf("%d", &a[i]);
+//     }
+
+//     int x, progison;
+//     scanf("%d", &x);
+//     progison =-1;
+
+//     for(int i=0; i<n; i++)
+//     {
+//         if(a[i]==x)
+//         {
+//             progison=i;
+//             break;
+//         }
+//     }
+//     printf("%d", progison);
+//     return 0;
+// }
+
 #include<stdio.h>
 int main()
 {
-    int n,y;
+    int n;
     scanf("%d", &n);
     int a[n];
-    for(int i=0; i<n; i++)
+    for(int i=0;i<n;i++)
     {
-        scanf("%d", &a[i]);
+        scanf("%d",&a[i]);
     }
-
-    int x, progison;
-    scanf("%d", &x);
-    progison =-1;
-
-    for(int i=0; i<n; i++)
+    int x;//search valu
+    scanf("%d",&x);
+    for(int i=0;i<n;i++)
     {
         if(a[i]==x)
         {
-            progison=i;
-            break;
+            printf("%d",i);// i_th index
+            return 0;
         }
     }
-    printf("%d", progison);
+    // not found
+    printf("%d",-1);
     return 0;
 }
