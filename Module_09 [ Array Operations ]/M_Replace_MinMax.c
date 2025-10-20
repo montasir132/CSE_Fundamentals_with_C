@@ -21,7 +21,7 @@ int main()
     }
     int tmp=a[minidx];
         a[minidx]=a[maxidx];
-        a[maxidx]=minidx;
+        a[maxidx]=tmp;
     for(int i=0;i<n;i++)
     {
         printf("%d ",a[i]);
