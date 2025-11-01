@@ -8,9 +8,9 @@
 
 📘 Pattern Programs
 ⭐ 1. Basic Star Pattern (Left-Aligned)
-*
-**
-***
+// *
+// **
+// ***
 
 #include<stdio.h>
 int main()
@@ -62,11 +62,11 @@ int main()
 প্রথমে star = n, তারপর প্রতি লাইনে ১ করে কমে — তাই তারকা উল্টো ক্রমে কমতে থাকে।
 
 🔺 3. Pyramid Pattern
-    *
-   ***
-  *****
- *******
-*********
+//     *
+//    ***
+//   *****
+//  *******
+// *********
 
 #include<stdio.h>
 int main()
@@ -269,3 +269,4 @@ Selection sort এবং pair sum concept
 📘 Prepared by: Montasir 
 🎓 Course: C Programming (Pattern & Basic Algorithm Practice)
 🗓️ Session: 2025
+
