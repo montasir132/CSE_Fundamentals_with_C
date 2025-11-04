@@ -1,0 +1,12 @@
+#include<stdio.h>
+void print()
+{
+    // code how to print
+}
+int main()
+{
+    int x;
+    scanf("%d",&x);
+    printf("%d",x);
+    return 0;
+}
